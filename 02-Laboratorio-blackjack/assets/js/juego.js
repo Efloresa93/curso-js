@@ -1,4 +1,4 @@
-(() => {
+const miModulo = (() => {
     'use strict'
 
     let deck = [];
@@ -134,5 +134,9 @@
         divCartasComputadora.innerHTML = "";
         deck = crearDeck();
     }
+
+    return {
+        inicializarJuego
+    };
 
 })();
